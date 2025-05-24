@@ -1,0 +1,55 @@
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 251, 245);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.todo-input {
+    padding: 5px;
+}
+
+//for the check box
+.complited {
+    text-decoration: line-through;
+    color: rgb(44, 252, 44);
+    background-color: rgb(234, 255, 234);
+}
+
+.todo-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+.input-todo {
+    border-radius:5px 0px 0px 5px;
+}
+.btn-border {
+   border-radius:0px 5px 5px 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 11px;
+
+}
+ul li:nth-child(odd) {
+  background-color: #f0f0f0;  // light gray for odd items
+  color: #333;
+}
+label {
+    font-size: 24px;
+}
+.radio{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
