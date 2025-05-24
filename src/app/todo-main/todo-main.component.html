@@ -4,7 +4,7 @@
         <button class="btn btn-info btn-border" (click)="addTask();">Add</button>
     </div>
     <ul class="list-unstyled">
-        <li *ngFor="let list of todoList; let i = index">
+        <li *ngFor="let list of todoList(); let i = index">
             <div class="form-check">
                 <input 
                     class="form-check-input radio"
